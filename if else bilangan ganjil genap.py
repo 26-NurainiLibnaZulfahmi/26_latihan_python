@@ -36,6 +36,21 @@ def cek_bilangan_prima(angka):
     return f"{angka} adalah bilangan Prima."
 
 
+def huruf_besar(kalimat):
+    kalimat = input ("Masukkan kalimat dengan huruf kecil: ")
+    print("Kalimat dalam huruf besar:", huruf_besar(kalimat))
+    return kalimat.upper()
+
+
+def huruf_kecil(kalimat):
+    kalimat = input ("Masukkan kalimat dengan huruf besar: ")
+    print("Kalimat dalam huruf kecil:", huruf_kecil(kalimat))
+    return kalimat.lower()
+
+
+print("--------------------------------------------")
+
+
 def main():
     while True:
         print("\n=== MENU PROGRAM ===")
