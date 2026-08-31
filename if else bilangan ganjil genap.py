@@ -1,3 +1,11 @@
+p = int(input("Masukkan jumlah panjang: "))
+l = int(input("Masukkan jumlah lebar: "))
+print("Luas persegi panjang adalah:", p * l)
+
+
+print("--------------------------------------------")
+
+
 bilangan = int(input("Masukkan bilangan: "))
 ganjil_genap = "Bilangan ganjil" if bilangan % 2 !=0 else "Bilangan genap"
 print("Bilangan", bilangan, "adalah", ganjil_genap)
